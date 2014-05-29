@@ -1,0 +1,133 @@
+	
+	#go-portfolio-admin-icon { background:url(../images/icon_wp_header.png) 3px 0 no-repeat; }
+	#go-portfolio-admin-wrap .ajax-loading {
+		left:5px;
+		position:relative;
+		top:3px;
+	}
+	#go-portfolio-admin-wrap .button-primary,
+	#go-portfolio-admin-wrap .button-secondary {
+		display:inline-block;
+		height:auto !important;
+		line-height:15px !important;
+		margin:1px !important;
+		padding:4px 8px !important;
+		margin-right:5px !important;
+	}
+	#go-portfolio-admin-wrap ul { margin:0; }
+	#go-portfolio-admin-wrap input[type="text"],
+	#go-portfolio-admin-wrap textarea,
+	#go-portfolio-admin-wrap select {
+		min-height:25px !important;
+		_min-height:15px !important;
+	}
+	#go-portfolio-admin-wrap select { background:#FFF; }
+	#go-portfolio-admin-wrap select optgroup { background:#DFDFDF; }
+	
+	.gw-gopf-w80 { width:80px; }
+	.gw-gopf-w100 { width:100px; }
+	.gw-gopf-w150 { width:150px; }
+	.gw-gopf-w250 { width:250px; }
+	.gw-gopf-w300 { width:300px; }
+	.gw-gopf-w360 { width:360px; }
+	.gw-gopf-w400 { width:400px; }
+	.gw-go-portfolio-group { display:none; }	
+	.gw-go-portfolio-separator {
+		border-bottom:solid 1px #DFDFDF;
+		margin:10px 0;
+	}	
+	
+	.go-portfolio-checkbox-list {
+		overflow:hidden;
+		width: 250px;
+	}
+	.go-portfolio-checkbox-list ul {
+		padding-left:16px;
+		margin-top:10px !important;
+		margin-bottom:10px !important;
+		display:none;
+		width: auto;
+	}
+	.go-portfolio-checkbox-list li { margin-bottom:3px; }
+	.go-portfolio-checkbox-list li label {
+		display:block;
+		margin-right:26px;
+		padding-left:21px;
+		position:relative;
+	}
+	.go-portfolio-checkbox-list li label input[type="checkbox"] { margin-left:-16px; }
+	.go-portfolio-checkbox-list li label span {
+		background:url(../images/button_collapse.png) 0 0 no-repeat;
+		height:16px;
+		position:absolute;
+		right:-26px;
+		top:2px;
+		width:16px;
+	}
+	.go-portfolio-checkbox-list li label:hover span { background-position:0 -16px; }
+	.go-portfolio-checkbox-list li label span.go-portfolio-closed { background-position:-18px 0; }
+	.go-portfolio-checkbox-list li label:hover span.go-portfolio-closed { background-position:-18px -16px; }
+	.go-portfolio-check-btn-container {
+		background:none !important;
+		border:none !important;
+		display:block !important;
+		margin-top:10px !important;
+	}
+	
+	/* box header  */
+	#go-portfolio-admin-wrap .hndle {
+		cursor:pointer;
+		font-size:12px;
+		padding:7px 10px;
+		margin:0;
+	}
+	#go-portfolio-admin-wrap .hndle > span,
+	#go-portfolio-admin-wrap .hndle > .hndle-inner > span {
+		background:url(../images/icon_open_close.png) 0 -16px no-repeat;
+		display:block;
+		float:right;
+		height:16px;
+		position:relative;
+		right:-4px;
+		top:-2px;
+		width:16px;
+	}
+	#go-portfolio-admin-wrap .hndle > span.gwa-go-portfolio-closed,
+	#go-portfolio-admin-wrap .hndle > .hndle-inner > .gwa-go-portfolio-closed { background-position:0 0; }
+	#go-portfolio-admin-wrap td,
+	#go-portfolio-admin-wrap th { vertical-align:top; }
+	#go-portfolio-admin-wrap .hndle.hndle-large {
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-top-right-radius:3px;
+		border-top-left-radius:3px;
+		border-top-right-radius:3px;
+		border-top:none;
+		font-size:16px !important;
+		height:40px;
+		margin-top:1px !important;
+		padding:20px 10px 18px !important;
+	}
+	#go-portfolio-admin-wrap .hndle.hndle-large div[class*="go-portfolio-handle-icon"] {
+		background:url(../images/h0.png) 0 0 no-repeat !important;
+		float:left;
+		height:40px;
+		padding-left:125px;
+		margin-left:-10px;
+		position:relative;
+	}
+	#go-portfolio-admin-wrap .hndle.hndle-large span,
+	#go-portfolio-admin-wrap .hndle.hndle-large small {
+		color:#666;
+		display:block;
+		font-weight:normal;
+		margin-top:5px;
+		text-shadow:none;
+	}
+	#go-portfolio-admin-wrap .postbox { margin:20px 0; }
+	#go-portfolio-admin-wrap .inside .postbox { margin:10px 0 0; }
+	#go-portfolio-admin-wrap .postbox:first-child { margin:0; }
+	#go-portfolio-admin-wrap .inside {
+		padding:10px;
+		margin:0;
+	}
+	#go-portfolio-admin-wrap .inside.inside-dark { background: #E8E8E8; }
